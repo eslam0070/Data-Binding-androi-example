@@ -1,9 +1,10 @@
 # Data-Binding-androi-exmple
 
 ## 1. Data Binding With TextViews
-      The Data Binding Library is a support library that allows you to bind UI components in your layouts to data sources in your app using a declarative format rather than programmatically.
+      The Data Binding Library is a support library that allows you to bind UI components in your layouts to data sources in your app
+      using a declarative format rather than programmatically.
 
-Layouts are often defined in activities with code that calls UI framework methods. For example, the code below calls findViewById() to find a TextView widget and bind it to the userName property of the viewModel variable:
+      Layouts are often defined in activities with code that calls UI framework methods. For example, the code below calls findViewById()       to find a TextView widget and bind it to the userName property of the viewModel variable:
 
 ## 2. Data Binding For Event Listeners
       n previous articles, I wrote about how to eliminate findViewById from Android applications and in some cases eliminate the need for View IDs altogether. One thing I didn’t explicitly mention in those articles is how to handle event listeners, such as View’s OnClickListener and TextView’s TextWatcher.
